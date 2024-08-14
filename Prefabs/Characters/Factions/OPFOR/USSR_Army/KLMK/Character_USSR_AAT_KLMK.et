@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{631158F6898738A4}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AAT.et" {
+ ID "51F08680DED7494C"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C0D30A0B0078FDE2}Prefabs/Characters/HeadGear/Hat_Turbant/Hat_Turbant_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{4AF18A245486C920}Prefabs/Characters/Uniforms/Jacket_UrbanTaliban.et"
+    }
+    LoadoutSlotInfo Pants {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{568AD28065623400}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_UrbanTaliban.et"
+    }
+   }
+  }
+ }
+}

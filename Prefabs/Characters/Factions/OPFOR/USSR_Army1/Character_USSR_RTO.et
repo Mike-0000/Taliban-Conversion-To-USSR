@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{23D81C023DBF85AC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RTO.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B3BF3E5768AA3F7B}Prefabs/Characters/HeadGear/Hat_Turbant/Hat_Turbant_01_Open.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6FC934B9345E9D16}Prefabs/Characters/Vests/Vest_Taliban/Vest_Bomb.et"
+    }
+   }
+  }
+ }
+}

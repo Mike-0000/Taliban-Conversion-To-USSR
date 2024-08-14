@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C0D30A0B0078FDE2}Prefabs/Characters/HeadGear/Hat_Turbant/Hat_Turbant_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{4AF18A245486C920}Prefabs/Characters/Uniforms/Jacket_UrbanTaliban.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+   }
+  }
+ }
+ coords 136.222 1 129.193
+}

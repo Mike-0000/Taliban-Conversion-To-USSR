@@ -1,0 +1,32 @@
+SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C0D30A0B0078FDE2}Prefabs/Characters/HeadGear/Hat_Turbant/Hat_Turbant_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{4AF18A245486C920}Prefabs/Characters/Uniforms/Jacket_UrbanTaliban.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{4711A4CAF64C4CEE}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_AR.et"
+    }
+    LoadoutSlotInfo Pants {
+     Enabled 0
+     Prefab "{BBA08EC4EC40FA94}Prefabs/Characters/Uniforms/Jacket_M70.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_SovietHarness/Vest_SovietHarness_Suspenders.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173E6675BF5}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_UrbanTaliban.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,8 @@
+GameProject {
+ ID "TalibanConversiontoUSSR"
+ GUID "620C16F88BFA412E"
+ TITLE "Taliban Conversion to USSR"
+ Dependencies {
+  "5D931A33AEB81FA3" "58D0FB3206B6F859"
+ }
+}

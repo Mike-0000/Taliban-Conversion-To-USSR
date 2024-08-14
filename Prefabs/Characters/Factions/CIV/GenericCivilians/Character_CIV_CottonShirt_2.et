@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{76EC8248377D0989}Prefabs/Characters/Factions/CIV/Businessman/Character_CIV_Businessman_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BDA17A1F555D30A1}Prefabs/Characters/HeadGear/Hat_Turbant/Hat_Turbant_02_Open.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{4AF18A245486C920}Prefabs/Characters/Uniforms/Jacket_UrbanTaliban.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab ""
+    }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab ""
+    }
+   }
+  }
+ }
+ coords 136.222 1 129.193
+}
