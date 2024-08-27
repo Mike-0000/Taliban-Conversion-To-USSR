@@ -1,6 +1,18 @@
 SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+   Filenames {
+    "{609BC515708A6C91}Sounds/RadioProtocol/RadioProtocol_Report_FIA.acp" "{2BBB4A9DA10EE163}Sounds/RadioProtocol/RadioProtocol_Movement_FIA.acp" "{5B2A0174F1C27445}Sounds/RadioProtocol/RadioProtocol_Confirmations_FIA.acp" "{65F6CCB82ABA12FB}Sounds/RadioProtocol/RadioProtocol_Combat_FIA.acp" "{30C6D89341B1EA1A}Sounds/Character/Character_Voice_Code.acp" "{C9BE186498C3B447}Sounds/Character/Character_Voice_Animations.acp" "{EA06766D8B13B414}Sounds/RadioProtocol/RadioProtocol_Actions_FIA.acp" "{2B5C7E7FB00C9371}Sounds/RadioProtocol/RadioProtocol_Report_2_FIA.acp"
+   }
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    SoundIdentity SoundIdentity "{56E6D945D8F79290}" {
+     VoiceID 0
+    }
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
