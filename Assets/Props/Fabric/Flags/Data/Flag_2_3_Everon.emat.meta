@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{77300AF5F8A8B2A2}Assets/Props/Fabric/Flags/Data/Flag_2_3_Everon.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
